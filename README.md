@@ -1,28 +1,116 @@
-# Compress Image
+# PixelPress
 
-## Description
-This snippet of code will Compress the image upto a great extent without affecting quality of image.
+### A Modern Image Compression & Optimization Tool
 
-## Requirements
+PixelPress is a Python-based desktop application designed to make image compression simple, efficient, and accessible. It provides an intuitive graphical interface for compressing, resizing, and optimizing images while maintaining control over image quality and output settings.
 
-`$ pip install Pillow`
+## Features
 
-## Steps To Execution
-- Fork this repo and navigate to ShortenLinks folder
-- (optional) Add images to same directory with this `code.py`.
-- Modify the names in `code.py`
-- Run this code.py `$ python code.py`
-- Boom !!! a new image will generate with much less size but same quality.
-- Enjoy the the Image Compress Thing !!!!!
+- **Modern GUI:** Clean and intuitive interface built with CustomTkinter.
+- **Batch Compression:** Compress multiple images in a single operation.
+- **Drag and Drop:** Easily import images using drag-and-drop functionality.
+- **Image Preview:** Preview images before and after compression.
+- **Image Resizing:** Resize images while maintaining aspect ratio.
+- **Quality Control:** Adjust compression quality according to your requirements.
+- **Multiple Formats:** Support for JPEG, PNG, WebP, BMP, and TIFF.
+- **Compression Statistics:** View image size and compression results.
+- **Output Management:** Choose where compressed images are saved.
+- **Compression History:** Keep track of previous compression operations.
+- **Theme Support:** Customize the application's appearance.
 
-## Code Output
+## Tech Stack
 
-![op2](https://user-images.githubusercontent.com/52918207/121647187-bf28a200-cab3-11eb-9171-a97d3b90527a.png)
+| Technology | Purpose |
+|---|---|
+| Python | Core application logic |
+| CustomTkinter | Modern graphical user interface |
+| Pillow | Image processing and compression |
+| TkinterDnD2 | Drag-and-drop functionality |
 
+## Getting Started
 
+Follow these steps to run PixelPress locally.
 
-| Before | After | 
-|:---:|:---------------------------------------------------------------------------------------------------------------------:|
-|  ![1](https://user-images.githubusercontent.com/52918207/121647416-0151e380-cab4-11eb-96d1-1dfd127789c6.jpg) | ![1_compressed](https://user-images.githubusercontent.com/52918207/121647438-06af2e00-cab4-11eb-9fa5-b84787163bb2.jpg) | 
-|  Size : 7.3 MB  | Size : 1.7 MB | 
+### Prerequisites
+
+- Python 3.10 or later
+- Git
+- Windows, or another platform compatible with the application's dependencies
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/sangushetty1129-art/PixelPress.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd PixelPress
+```
+
+**3. Create a virtual environment**
+
+```bash
+python -m venv .venv
+```
+
+**4. Activate the virtual environment**
+
+For Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**5. Install dependencies**
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+**6. Run PixelPress**
+
+```bash
+python img_comp.py
+```
+
+## Project Structure
+
+```text
+PixelPress/
+│
+├── img_comp.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .venv/
+```
+
+## Usage
+
+1. Launch PixelPress.
+2. Add images using the file selection option or drag-and-drop.
+3. Configure compression quality and image settings.
+4. Select the desired output format and destination.
+5. Start compression.
+6. Review the compressed images and compression statistics.
+
+## Developer
+
+**Sangamesh**
+
+GitHub: [@sangushetty1129-art](https://github.com/sangushetty1129-art)
+
+## Acknowledgements
+
+PixelPress uses open-source Python libraries, including Pillow, CustomTkinter, and TkinterDnD2.
+
+Their respective authors and maintainers deserve credit for the libraries that make this application possible.
+
+---
+
+If you find PixelPress useful, consider giving the repository a star.
 
